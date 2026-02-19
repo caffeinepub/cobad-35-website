@@ -5,74 +5,74 @@
 @layer base {
     :root {
         --radius: 0.75rem;
-        /* Warm educational color palette - Terracotta & Warm Neutrals */
-        --background: 0.98 0.01 60;
-        --foreground: 0.25 0.02 40;
+        /* Burgundy (Guindo) and White color palette */
+        --background: 1 0 0;
+        --foreground: 0.25 0.20 355;
         --card: 1 0 0;
-        --card-foreground: 0.25 0.02 40;
+        --card-foreground: 0.25 0.20 355;
         --popover: 1 0 0;
-        --popover-foreground: 0.25 0.02 40;
-        /* Primary: Warm Terracotta */
-        --primary: 0.55 0.15 35;
-        --primary-foreground: 0.98 0.01 60;
-        /* Secondary: Soft Peach */
-        --secondary: 0.92 0.05 50;
-        --secondary-foreground: 0.35 0.03 40;
-        /* Muted: Warm Gray */
-        --muted: 0.94 0.01 60;
-        --muted-foreground: 0.55 0.02 40;
-        /* Accent: Golden Yellow */
-        --accent: 0.85 0.12 80;
-        --accent-foreground: 0.35 0.03 40;
+        --popover-foreground: 0.25 0.20 355;
+        /* Primary: Deep Burgundy */
+        --primary: 0.35 0.18 355;
+        --primary-foreground: 0.98 0 0;
+        /* Secondary: Light Burgundy */
+        --secondary: 0.85 0.08 355;
+        --secondary-foreground: 0.25 0.20 355;
+        /* Muted: Very Light Burgundy */
+        --muted: 0.95 0.03 355;
+        --muted-foreground: 0.45 0.15 355;
+        /* Accent: Medium Burgundy */
+        --accent: 0.55 0.15 355;
+        --accent-foreground: 0.98 0 0;
         --destructive: 0.577 0.245 27.325;
         --destructive-foreground: 0.985 0 0;
-        --border: 0.90 0.01 60;
-        --input: 0.90 0.01 60;
-        --ring: 0.55 0.15 35;
+        --border: 0.90 0.03 355;
+        --input: 0.90 0.03 355;
+        --ring: 0.35 0.18 355;
         /* Burgundy (Guindo) color tokens */
         --burgundy: 0.35 0.18 355;
         --burgundy-light: 0.45 0.15 355;
         --burgundy-dark: 0.25 0.20 355;
-        --chart-1: 0.65 0.18 35;
-        --chart-2: 0.75 0.12 80;
-        --chart-3: 0.55 0.10 120;
-        --chart-4: 0.70 0.15 50;
-        --chart-5: 0.60 0.14 25;
+        --chart-1: 0.35 0.18 355;
+        --chart-2: 0.45 0.15 355;
+        --chart-3: 0.55 0.15 355;
+        --chart-4: 0.65 0.12 355;
+        --chart-5: 0.75 0.08 355;
     }
 
     .dark {
-        --background: 0.20 0.02 40;
-        --foreground: 0.95 0.01 60;
-        --card: 0.25 0.02 40;
-        --card-foreground: 0.95 0.01 60;
-        --popover: 0.22 0.02 40;
-        --popover-foreground: 0.95 0.01 60;
-        /* Primary: Lighter Terracotta for dark mode */
-        --primary: 0.65 0.15 35;
-        --primary-foreground: 0.15 0.02 40;
-        /* Secondary: Muted Peach */
-        --secondary: 0.35 0.05 50;
-        --secondary-foreground: 0.95 0.01 60;
-        /* Muted: Dark Gray */
-        --muted: 0.30 0.02 40;
-        --muted-foreground: 0.70 0.02 60;
-        /* Accent: Warm Gold */
-        --accent: 0.70 0.12 80;
-        --accent-foreground: 0.20 0.02 40;
+        --background: 0.15 0.15 355;
+        --foreground: 0.98 0 0;
+        --card: 0.20 0.15 355;
+        --card-foreground: 0.98 0 0;
+        --popover: 0.18 0.15 355;
+        --popover-foreground: 0.98 0 0;
+        /* Primary: Lighter Burgundy for dark mode */
+        --primary: 0.45 0.18 355;
+        --primary-foreground: 0.98 0 0;
+        /* Secondary: Muted Burgundy */
+        --secondary: 0.30 0.15 355;
+        --secondary-foreground: 0.98 0 0;
+        /* Muted: Dark Burgundy */
+        --muted: 0.25 0.15 355;
+        --muted-foreground: 0.75 0.08 355;
+        /* Accent: Bright Burgundy */
+        --accent: 0.55 0.18 355;
+        --accent-foreground: 0.98 0 0;
         --destructive: 0.65 0.20 27;
-        --destructive-foreground: 0.95 0.01 60;
-        --border: 0.30 0.02 40;
-        --input: 0.30 0.02 40;
-        --ring: 0.65 0.15 35;
+        --destructive-foreground: 0.98 0 0;
+        --border: 0.30 0.15 355;
+        --input: 0.30 0.15 355;
+        --ring: 0.45 0.18 355;
         /* Burgundy (Guindo) color tokens for dark mode */
         --burgundy: 0.45 0.18 355;
         --burgundy-light: 0.55 0.15 355;
         --burgundy-dark: 0.35 0.20 355;
-        --chart-1: 0.70 0.18 35;
-        --chart-2: 0.80 0.12 80;
-        --chart-3: 0.60 0.10 120;
-        --chart-4: 0.75 0.15 50;
-        --chart-5: 0.65 0.14 25;
+        --chart-1: 0.45 0.18 355;
+        --chart-2: 0.55 0.15 355;
+        --chart-3: 0.65 0.12 355;
+        --chart-4: 0.75 0.08 355;
+        --chart-5: 0.85 0.05 355;
     }
 
     * {

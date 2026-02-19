@@ -1,11 +1,12 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 5,
+  "projectStateVersion": 7,
   "summary": "Página web atractiva para COBAD 35 (escuela) con formulario de inscripción, sistema de dudas con contacto directo a WhatsApp e Instagram, e información sobre beneficios de estudiar en la institución",
   "architectural_notes": [
     "Página web estática con formularios del lado del cliente",
     "Integración directa con WhatsApp usando protocolo de enlace (wa.me)",
-    "Enlace directo a Instagram (@omar_garcia_18) para contacto"
+    "Enlace directo a Instagram (@omar_garcia_18) para contacto",
+    "Integración con Google Maps para mostrar ubicación de la escuela"
   ],
   "known_issues": [],
   "isFixRequest": false,
@@ -81,6 +82,22 @@
         "REQ-11"
       ],
       "version": 1
+    },
+    {
+      "id": "feature-change-the-entire-website-color-scheme-to-burgundy-guindo-and-white-applying-burgundy-as-the-primary-accent-color-across-all-sections-including-hero-section-about-section-enrollment-form-footer-and-any-other-page-elements-update-all-css-variables-and-tailwind-configurations-to-use-burgundy-and-white-consistently-throughout-the-application",
+      "title": "Change the entire website color scheme to burgundy (guindo) and white, applying burgundy as the primary accent color across all sections including hero section, about section, enrollment form, footer, and any other page elements. Update all CSS variables and Tailwind configurations to use burgundy and white consistently throughout the application.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-an-interactive-map-section-displaying-the-location-of-cobad-35-de-g-mez-far-as-using-the-google-maps-embed-with-the-url-https-maps-app-goo-gl-7vmjbd4rjaftk1gy8-the-map-should-be-embedded-as-an-iframe-and-positioned-prominently-on-the-page-so-visitors-can-easily-see-where-the-school-is-located",
+      "title": "Add an interactive map section displaying the location of COBAD 35 de Gómez Farías using the Google Maps embed with the URL https://maps.app.goo.gl/7vmjBD4RjaFTk1gY8. The map should be embedded as an iframe and positioned prominently on the page so visitors can easily see where the school is located.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
     }
   ],
   "new_feature_requests": [
@@ -133,6 +150,18 @@
     {
       "id": "AR-8",
       "summary": "Mostrar mensaje motivacional sobre no arrepentirse de estudiar en COBAD 35 de Gómez Farías cuando se envíe el formulario de dudas",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Cambiar toda la página a colores guindo (burgundy) y blanco",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Agregar mapa interactivo mostrando la ubicación de COBAD 35 de Gómez Farías usando Google Maps (https://maps.app.goo.gl/7vmjBD4RjaFTk1gY8)",
       "reqIds": [],
       "status": "pending"
     }

@@ -1,12 +1,12 @@
 # Specification
 
 ## Summary
-**Goal:** Update the questions/doubts form section with burgundy and white colors, and display a motivational success message after submission.
+**Goal:** Update the COBAD 35 website to use a burgundy and white color scheme throughout, and add a Google Maps location section.
 
 **Planned changes:**
-- Change the questions form section color scheme to burgundy (guindo) and white
-- Apply burgundy as the primary accent color for form elements
-- Use white for backgrounds and text contrast
-- Display a large title message "No se van a arrepentir de estudiar en el COBAD 35 de Gómez Farías" when the form is successfully submitted
+- Change entire website color scheme to burgundy (guindo) and white across all sections
+- Update hero section, about section, enrollment form, footer, and all page elements to use burgundy as primary accent color with white
+- Add an interactive Google Maps embed section showing the COBAD 35 de Gómez Farías location
+- Ensure map section is responsive and follows the new color scheme
 
-**User-visible outcome:** Users will see the questions form with an updated burgundy and white color scheme, and after submitting their questions, they will see a prominent motivational message encouraging them about studying at COBAD 35 de Gómez Farías.
+**User-visible outcome:** The website displays with a cohesive burgundy and white color scheme throughout all sections, and visitors can view an embedded map showing the exact location of COBAD 35 de Gómez Farías.

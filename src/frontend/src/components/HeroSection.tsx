@@ -16,26 +16,26 @@ export default function HeroSection() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: 'url(/assets/generated/hero-background.dim_1920x1080.png)' }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/95 via-primary/85 to-accent/90" />
+        <div className="absolute inset-0 bg-gradient-to-br from-burgundy/95 via-burgundy/85 to-burgundy-light/90" />
       </div>
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-20 text-center">
         <div className="flex justify-center mb-6">
-          <div className="bg-primary-foreground/10 backdrop-blur-sm p-4 rounded-full">
-            <GraduationCap className="w-16 h-16 text-primary-foreground" />
+          <div className="bg-white/10 backdrop-blur-sm p-4 rounded-full">
+            <GraduationCap className="w-16 h-16 text-white" />
           </div>
         </div>
         
-        <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 tracking-tight">
+        <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">
           COBAD 35
         </h1>
         
-        <p className="text-xl md:text-3xl text-primary-foreground/95 mb-4 font-medium max-w-3xl mx-auto">
+        <p className="text-xl md:text-3xl text-white/95 mb-4 font-medium max-w-3xl mx-auto">
           Construyendo el Futuro de México
         </p>
         
-        <p className="text-lg md:text-xl text-primary-foreground/85 mb-10 max-w-2xl mx-auto leading-relaxed">
+        <p className="text-lg md:text-xl text-white/85 mb-10 max-w-2xl mx-auto leading-relaxed">
           Educación de calidad, instalaciones modernas y un compromiso con la excelencia académica. 
           Tu camino hacia el éxito comienza aquí.
         </p>
@@ -44,7 +44,7 @@ export default function HeroSection() {
           <Button 
             size="lg" 
             onClick={scrollToEnrollment}
-            className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 text-lg px-8 py-6 rounded-full shadow-2xl transform transition hover:scale-105"
+            className="bg-white text-burgundy hover:bg-white/90 text-lg px-8 py-6 rounded-full shadow-2xl transform transition hover:scale-105"
           >
             Inscríbete Ahora
           </Button>
@@ -57,7 +57,7 @@ export default function HeroSection() {
                 aboutSection.scrollIntoView({ behavior: 'smooth' });
               }
             }}
-            className="bg-transparent border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10 text-lg px-8 py-6 rounded-full"
+            className="bg-transparent border-2 border-white text-white hover:bg-white/10 text-lg px-8 py-6 rounded-full"
           >
             Conoce Más
           </Button>

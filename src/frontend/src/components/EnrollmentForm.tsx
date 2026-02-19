@@ -90,42 +90,46 @@ export default function EnrollmentForm() {
   };
 
   return (
-    <section id="enrollment-form" className="py-20 bg-accent/20">
+    <section id="enrollment-form" className="py-20 bg-burgundy/5 dark:bg-burgundy/10">
       <div className="container mx-auto px-4">
-        <Card className="max-w-2xl mx-auto shadow-2xl border-2">
-          <CardHeader className="text-center pb-8">
-            <CardTitle className="text-3xl md:text-4xl font-bold text-foreground mb-2">
+        <Card className="max-w-2xl mx-auto shadow-2xl border-2 border-burgundy/30 bg-white dark:bg-gray-900">
+          <CardHeader className="text-center pb-8 bg-burgundy/5 dark:bg-burgundy/10">
+            <CardTitle className="text-3xl md:text-4xl font-bold text-burgundy mb-2">
               Solicitud de Inscripción
             </CardTitle>
-            <CardDescription className="text-lg">
+            <CardDescription className="text-lg text-burgundy-dark dark:text-burgundy-light">
               Completa el formulario y da el primer paso hacia tu futuro
             </CardDescription>
           </CardHeader>
-          <CardContent>
+          <CardContent className="pt-8">
             {showSuccess ? (
               <div className="text-center py-12">
                 <div className="flex justify-center mb-4">
-                  <div className="bg-green-100 dark:bg-green-900/30 p-4 rounded-full">
-                    <CheckCircle2 className="w-16 h-16 text-green-600 dark:text-green-400" />
+                  <div className="bg-burgundy/10 p-4 rounded-full">
+                    <CheckCircle2 className="w-16 h-16 text-burgundy" />
                   </div>
                 </div>
-                <h3 className="text-2xl font-bold text-foreground mb-2">
+                <h3 className="text-2xl font-bold text-burgundy mb-2">
                   ¡Solicitud Enviada!
                 </h3>
-                <p className="text-muted-foreground text-lg">
-                  Hemos recibido tu solicitud de inscripción. Nos pondremos en contacto contigo pronto.
+                <p className="text-burgundy-dark dark:text-burgundy-light">
+                  Gracias por tu interés en COBAD 35. Nos pondremos en contacto contigo pronto.
                 </p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="space-y-2">
-                  <Label htmlFor="fullName">Nombre Completo *</Label>
+                  <Label htmlFor="fullName" className="text-burgundy-dark dark:text-burgundy-light font-semibold">
+                    Nombre Completo *
+                  </Label>
                   <Input
                     id="fullName"
                     value={formData.fullName}
                     onChange={(e) => handleChange('fullName', e.target.value)}
                     placeholder="Juan Pérez García"
-                    className={errors.fullName ? 'border-destructive' : ''}
+                    className={`border-2 focus:border-burgundy focus:ring-burgundy ${
+                      errors.fullName ? 'border-destructive' : 'border-burgundy/30'
+                    }`}
                   />
                   {errors.fullName && (
                     <p className="text-sm text-destructive">{errors.fullName}</p>
@@ -133,14 +137,18 @@ export default function EnrollmentForm() {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="email">Correo Electrónico *</Label>
+                  <Label htmlFor="email" className="text-burgundy-dark dark:text-burgundy-light font-semibold">
+                    Correo Electrónico *
+                  </Label>
                   <Input
                     id="email"
                     type="email"
                     value={formData.email}
                     onChange={(e) => handleChange('email', e.target.value)}
                     placeholder="correo@ejemplo.com"
-                    className={errors.email ? 'border-destructive' : ''}
+                    className={`border-2 focus:border-burgundy focus:ring-burgundy ${
+                      errors.email ? 'border-destructive' : 'border-burgundy/30'
+                    }`}
                   />
                   {errors.email && (
                     <p className="text-sm text-destructive">{errors.email}</p>
@@ -148,14 +156,18 @@ export default function EnrollmentForm() {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="phoneNumber">Teléfono *</Label>
+                  <Label htmlFor="phoneNumber" className="text-burgundy-dark dark:text-burgundy-light font-semibold">
+                    Teléfono *
+                  </Label>
                   <Input
                     id="phoneNumber"
                     type="tel"
                     value={formData.phoneNumber}
                     onChange={(e) => handleChange('phoneNumber', e.target.value)}
                     placeholder="+52 123 456 7890"
-                    className={errors.phoneNumber ? 'border-destructive' : ''}
+                    className={`border-2 focus:border-burgundy focus:ring-burgundy ${
+                      errors.phoneNumber ? 'border-destructive' : 'border-burgundy/30'
+                    }`}
                   />
                   {errors.phoneNumber && (
                     <p className="text-sm text-destructive">{errors.phoneNumber}</p>
@@ -163,13 +175,17 @@ export default function EnrollmentForm() {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="dateOfBirth">Fecha de Nacimiento *</Label>
+                  <Label htmlFor="dateOfBirth" className="text-burgundy-dark dark:text-burgundy-light font-semibold">
+                    Fecha de Nacimiento *
+                  </Label>
                   <Input
                     id="dateOfBirth"
                     type="date"
                     value={formData.dateOfBirth}
                     onChange={(e) => handleChange('dateOfBirth', e.target.value)}
-                    className={errors.dateOfBirth ? 'border-destructive' : ''}
+                    className={`border-2 focus:border-burgundy focus:ring-burgundy ${
+                      errors.dateOfBirth ? 'border-destructive' : 'border-burgundy/30'
+                    }`}
                   />
                   {errors.dateOfBirth && (
                     <p className="text-sm text-destructive">{errors.dateOfBirth}</p>
@@ -177,13 +193,17 @@ export default function EnrollmentForm() {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="previousSchool">Escuela Anterior *</Label>
+                  <Label htmlFor="previousSchool" className="text-burgundy-dark dark:text-burgundy-light font-semibold">
+                    Escuela Anterior *
+                  </Label>
                   <Input
                     id="previousSchool"
                     value={formData.previousSchool}
                     onChange={(e) => handleChange('previousSchool', e.target.value)}
                     placeholder="Nombre de tu escuela anterior"
-                    className={errors.previousSchool ? 'border-destructive' : ''}
+                    className={`border-2 focus:border-burgundy focus:ring-burgundy ${
+                      errors.previousSchool ? 'border-destructive' : 'border-burgundy/30'
+                    }`}
                   />
                   {errors.previousSchool && (
                     <p className="text-sm text-destructive">{errors.previousSchool}</p>
@@ -191,12 +211,19 @@ export default function EnrollmentForm() {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="gradeLevel">Grado al que Aplicas *</Label>
+                  <Label htmlFor="gradeLevel" className="text-burgundy-dark dark:text-burgundy-light font-semibold">
+                    Grado al que Deseas Ingresar *
+                  </Label>
                   <Select
                     value={formData.gradeLevel}
                     onValueChange={(value) => handleChange('gradeLevel', value)}
                   >
-                    <SelectTrigger className={errors.gradeLevel ? 'border-destructive' : ''}>
+                    <SelectTrigger 
+                      id="gradeLevel"
+                      className={`border-2 focus:border-burgundy focus:ring-burgundy ${
+                        errors.gradeLevel ? 'border-destructive' : 'border-burgundy/30'
+                      }`}
+                    >
                       <SelectValue placeholder="Selecciona un grado" />
                     </SelectTrigger>
                     <SelectContent>
@@ -215,7 +242,7 @@ export default function EnrollmentForm() {
 
                 <Button
                   type="submit"
-                  className="w-full text-lg py-6"
+                  className="w-full text-lg py-6 bg-burgundy hover:bg-burgundy-dark text-white font-semibold transition-colors"
                   disabled={submitApplication.isPending}
                 >
                   {submitApplication.isPending ? (

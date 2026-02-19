@@ -1,7 +1,7 @@
 {
   "kind": "coverage_report",
   "version": "1.0",
-  "generatedAt": "2026-02-19T04:13:47.288Z",
+  "generatedAt": "2026-02-19T04:22:58.677Z",
   "sources": {
     "buildRequest": true,
     "implementationPlan": true
@@ -11,40 +11,54 @@
     "implemented": 2,
     "items": [
       {
-        "id": "REQ-10",
-        "summary": "Change the questions/doubts form section colors to burgundy (guindo) and white color scheme, applying burgundy as the primary accent color and white as the background/text color",
+        "id": "REQ-12",
+        "summary": "Change the entire website color scheme to burgundy (guindo) and white, applying burgundy as the primary accent color across all sections including hero section, about section, enrollment form, footer, and any other page elements. Update all CSS variables and Tailwind configurations to use burgundy and white consistently throughout the application.",
         "status": "implemented",
         "plannedFiles": [
+          "frontend/src/index.css",
           "frontend/tailwind.config.js",
-          "frontend/src/components/QuestionsForm.tsx"
+          "frontend/src/components/HeroSection.tsx",
+          "frontend/src/components/AboutSection.tsx",
+          "frontend/src/components/EnrollmentForm.tsx",
+          "frontend/src/components/QuestionsForm.tsx",
+          "frontend/src/components/Footer.tsx",
+          "frontend/src/components/ContactButtons.tsx"
         ],
         "matchedFiles": [
-          "frontend/tailwind.config.js",
-          "frontend/src/components/QuestionsForm.tsx"
+          "frontend/src/index.css",
+          "frontend/src/components/HeroSection.tsx",
+          "frontend/src/components/AboutSection.tsx",
+          "frontend/src/components/EnrollmentForm.tsx",
+          "frontend/src/components/Footer.tsx"
         ]
       },
       {
-        "id": "REQ-11",
-        "summary": "Display a prominent success message reading 'No se van a arrepentir de estudiar en el COBAD 35 de Gómez Farías' (You won't regret studying at COBAD 35 de Gómez Farías) in large title text when users submit their questions/doubts through the form",
+        "id": "REQ-13",
+        "summary": "Add an interactive map section displaying the location of COBAD 35 de Gómez Farías using the Google Maps embed with the URL https://maps.app.goo.gl/7vmjBD4RjaFTk1gY8. The map should be embedded as an iframe and positioned prominently on the page so visitors can easily see where the school is located.",
         "status": "implemented",
         "plannedFiles": [
-          "frontend/src/components/QuestionsForm.tsx"
+          "frontend/src/components/LocationMap.tsx",
+          "frontend/src/App.tsx"
         ],
         "matchedFiles": [
-          "frontend/src/components/QuestionsForm.tsx"
+          "frontend/src/components/LocationMap.tsx",
+          "frontend/src/App.tsx"
         ]
       }
     ]
   },
   "changedFiles": [
     "build-request.json",
-    "build-template/README.md",
     "feature_evidence.json",
     "frontend-file-summaries.txt",
     "frontend-implementation-plan.json",
-    "frontend/src/components/QuestionsForm.tsx",
+    "frontend/src/App.tsx",
+    "frontend/src/components/AboutSection.tsx",
+    "frontend/src/components/EnrollmentForm.tsx",
+    "frontend/src/components/Footer.tsx",
+    "frontend/src/components/HeroSection.tsx",
+    "frontend/src/components/LocationMap.tsx",
     "frontend/src/index.css",
-    "frontend/tailwind.config.js",
     "project_state.json",
     "scratch/component-selection.json",
     "spec.md",

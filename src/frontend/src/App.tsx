@@ -1,5 +1,6 @@
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
+import LocationMap from './components/LocationMap';
 import EnrollmentForm from './components/EnrollmentForm';
 import QuestionsForm from './components/QuestionsForm';
 import ContactButtons from './components/ContactButtons';
@@ -10,6 +11,7 @@ function App() {
     <div className="min-h-screen bg-background">
       <HeroSection />
       <AboutSection />
+      <LocationMap />
       <EnrollmentForm />
       <QuestionsForm />
       <ContactButtons />
