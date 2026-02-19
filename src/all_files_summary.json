@@ -1,0 +1,21 @@
+{
+  "backend/main.mo": "Motoko actor defining EnrollmentApplication and StudentQuestion types with functions to submit and retrieve applications and questions, storing them in lists with timestamps.",
+  "feature_evidence.json": "Feature evidence report documenting two implemented features: burgundy/white color scheme for questions form and prominent success message display after form submission.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of all frontend source files describing components, hooks, and styling for the COBAD 35 website application.",
+  "frontend/index.css": "Tailwind CSS configuration with OKLCH color system defining CSS custom properties for light and dark themes including background, foreground, primary, and accent colors.",
+  "frontend/index.html": "HTML entry point for the React application with root div and module script reference to main.tsx.",
+  "frontend/src/App.tsx": "Root React component composing all major sections: HeroSection, AboutSection, EnrollmentForm, QuestionsForm, ContactButtons, and Footer.",
+  "frontend/src/components/AboutSection.tsx": "Section displaying four benefit cards with icons and images highlighting academic excellence, collaborative environment, modern facilities, and proven success.",
+  "frontend/src/components/ContactButtons.tsx": "Fixed floating buttons for WhatsApp and Instagram contact with deep links to open respective apps with pre-filled messages.",
+  "frontend/src/components/EnrollmentForm.tsx": "Enrollment form with validation for student information fields, backend submission via mutation hook, error handling, and success confirmation display.",
+  "frontend/src/components/Footer.tsx": "Footer displaying school information, contact details, hours, copyright notice, and attribution link to caffeine.ai with UTM tracking.",
+  "frontend/src/components/HeroSection.tsx": "Hero section with background image overlay, school branding, tagline, and call-to-action buttons with smooth scroll to enrollment and about sections.",
+  "frontend/src/components/QuestionsForm.tsx": "React component for a questions/doubts form with fields for name, email, phone, and question text. Includes validation, submission via useSubmitQuestion hook, and displays a success message with school branding after submission.",
+  "frontend/src/hooks/useActor.ts": "Custom React hook that manages the backend actor instance using React Query, creating authenticated or anonymous actors based on Internet Identity state and invalidating dependent queries when the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login state, identity persistence, and AuthClient lifecycle with configurable options for idle handling and derivation origins.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for submitting and fetching applications and questions data through the backend actor, with automatic cache invalidation on mutations.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables defining a warm educational color palette (terracotta, peach, golden yellow) and burgundy accent colors for both light and dark modes.",
+  "frontend/src/main.tsx": "Application entry point that sets up React Query and Internet Identity providers, then renders the main App component.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the default theme with custom fonts (Inter, Poppins), OKLCH color system using CSS variables, burgundy color variants, and custom animations for accordions.",
+  "project_state.json": "Project metadata describing a COBAD 35 school website with enrollment forms, questions system, WhatsApp/Instagram integration, and warm burgundy color scheme implementation across multiple features."
+}

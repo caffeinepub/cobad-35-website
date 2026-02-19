@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Página web atractiva para COBAD 35 (escuela) con formulario de inscripción, sistema de dudas con contacto directo a WhatsApp e Instagram, e información sobre beneficios de estudiar en la institución",
+  "architectural_notes": [
+    "Página web estática con formularios del lado del cliente",
+    "Integración directa con WhatsApp usando protocolo de enlace (wa.me)",
+    "Enlace directo a Instagram (@omar_garcia_18) para contacto"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-hero-section-with-the-school-name-cobad-35-a-compelling-tagline-about-quality-education-and-a-prominent-call-to-action-button-for-enrollment",
+      "title": "Create a hero section with the school name 'COBAD 35', a compelling tagline about quality education, and a prominent call-to-action button for enrollment",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-about-cobad-35-section-highlighting-the-benefits-and-advantages-of-studying-at-cobad-35-including-academic-excellence-facilities-extracurricular-activities-and-student-success-stories",
+      "title": "Create an 'About COBAD 35' section highlighting the benefits and advantages of studying at COBAD 35, including academic excellence, facilities, extracurricular activities, and student success stories",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-enrollment-application-form-with-fields-for-full-name-email-phone-number-date-of-birth-previous-school-and-grade-level-applying-for-with-form-validation-and-submission-to-the-backend",
+      "title": "Create an enrollment application form with fields for full name, email, phone number, date of birth, previous school, and grade level applying for, with form validation and submission to the backend",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-questions-doubts-form-with-fields-for-name-email-phone-number-and-question-text-with-form-validation-and-submission-to-the-backend",
+      "title": "Create a questions/doubts form with fields for name, email, phone number, and question text, with form validation and submission to the backend",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-direct-contact-buttons-for-whatsapp-52-8313031210-and-instagram-omar-garcia-18-that-open-the-respective-apps-or-web-interfaces",
+      "title": "Add direct contact buttons for WhatsApp (+52 8313031210) and Instagram (@omar_garcia_18) that open the respective apps or web interfaces",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-clean-modern-design-system-with-warm-educational-colors-avoid-blue-and-purple-consistent-typography-and-professional-spacing-throughout-all-sections",
+      "title": "Implement a clean, modern design system with warm, educational colors (avoid blue and purple), consistent typography, and professional spacing throughout all sections",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-all-generated-images-as-static-assets-in-frontend-public-assets-generated-and-display-them-appropriately-throughout-the-website",
+      "title": "Render all generated images as static assets in frontend/public/assets/generated and display them appropriately throughout the website",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-change-the-questions-doubts-form-section-colors-to-burgundy-guindo-and-white-color-scheme-applying-burgundy-as-the-primary-accent-color-and-white-as-the-background-text-color",
+      "title": "Change the questions/doubts form section colors to burgundy (guindo) and white color scheme, applying burgundy as the primary accent color and white as the background/text color",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-a-prominent-success-message-reading-no-se-van-a-arrepentir-de-estudiar-en-el-cobad-35-de-g-mez-far-as-you-won-t-regret-studying-at-cobad-35-de-g-mez-far-as-in-large-title-text-when-users-submit-their-questions-doubts-through-the-form",
+      "title": "Display a prominent success message reading 'No se van a arrepentir de estudiar en el COBAD 35 de Gómez Farías' (You won't regret studying at COBAD 35 de Gómez Farías) in large title text when users submit their questions/doubts through the form",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Diseño web atractivo con imágenes y colores institucionales",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Formulario de inscripción para estudiantes",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Sistema de dudas con contacto a WhatsApp (+52 8313031210) e Instagram (@omar_garcia_18)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Secciones informativas sobre COBAD 35 y beneficios de estudiar ahí",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Create a backend data model to store enrollment applications with fields for student name, email, phone number, date of birth, previous school, grade level applying for, and submission timestamp",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Create a backend data model to store student questions/doubts with fields for name, email, phone number, question text, and submission timestamp",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Cambiar colores de la página principal a guindo (burgundy) y blanco",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Mostrar mensaje motivacional sobre no arrepentirse de estudiar en COBAD 35 de Gómez Farías cuando se envíe el formulario de dudas",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "COBAD 35 Website",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

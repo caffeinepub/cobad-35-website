@@ -1,0 +1,12 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders all sections of the COBAD 35 website including hero, about, enrollment form, questions form, contact buttons, and footer.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for managing backend interactions including submitting applications and questions, and retrieving stored data.",
+  "frontend/src/components/HeroSection.tsx": "Hero section component with background image, school branding, tagline, and call-to-action buttons with smooth scroll functionality.",
+  "frontend/src/components/AboutSection.tsx": "About section showcasing four key benefits of COBAD 35 with images, icons, and compelling descriptions in a card-based layout.",
+  "frontend/src/components/EnrollmentForm.tsx": "Enrollment application form with validation, error handling, backend submission, and success confirmation display.",
+  "frontend/src/components/QuestionsForm.tsx": "Questions form component with burgundy and white color scheme, featuring validation, backend submission, and a large motivational success message about COBAD 35 de Gómez Farías that displays after form submission.",
+  "frontend/src/components/ContactButtons.tsx": "Fixed floating buttons for WhatsApp and Instagram contact with deep linking to open respective apps.",
+  "frontend/src/components/Footer.tsx": "Footer component with school information, contact details, hours, and attribution to caffeine.ai with UTM tracking.",
+  "frontend/src/index.css": "Global styles with OKLCH color system including new burgundy (guindo) color tokens for both light and dark modes, maintaining the existing warm educational palette.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with burgundy color variants (default, light, dark) added to the color system for use throughout the application."
+}

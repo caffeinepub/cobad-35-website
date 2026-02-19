@@ -1,0 +1,63 @@
+{
+  "kind": "build_request",
+  "title": "Update questions form colors to burgundy/white and show motivational message on submission",
+  "projectName": "COBAD 35",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-10",
+      "text": "Change the questions/doubts form section colors to burgundy (guindo) and white color scheme, applying burgundy as the primary accent color and white as the background/text color",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "cámbiale los colores a guindo ya blanco"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The questions form section uses burgundy (guindo) as the primary accent color",
+        "White is used appropriately for backgrounds and contrast",
+        "The color scheme is consistent with burgundy and white theme",
+        "All form elements (inputs, buttons, labels) follow the new color palette"
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "text": "Display a prominent success message reading 'No se van a arrepentir de estudiar en el COBAD 35 de Gómez Farías' (You won't regret studying at COBAD 35 de Gómez Farías) in large title text when users submit their questions/doubts through the form",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "cuando envíen sus dudas Seles aparecen unas palabras de que no se va a repetir de estudiar en el",
+          "desaparezca una pantalla que diga cosas que no se van a arrepentir de estudiar en el Censadec 35 de Gómez Farías"
+        ]
+      },
+      "acceptanceCriteria": [
+        "After successful form submission, a large title message appears with the text 'No se van a arrepentir de estudiar en el COBAD 35 de Gómez Farías'",
+        "The message is displayed prominently with large, readable typography",
+        "The message replaces or overlays the form upon successful submission",
+        "The messaging is motivational and encouraging in tone"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not implement email sending functionality - this is explicitly out of scope",
+    "Only modify the questions/doubts form section identified by the XPath: /html[1]/body[1]/div[1]/div[1]/section[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+    "Preserve existing form validation and backend submission functionality",
+    "Maintain the form's data structure and submission flow"
+  ],
+  "nonGoals": [
+    "Adding email sending capabilities to forward questions to omaralexander1829@gmail.com",
+    "Modifying other sections of the website beyond the questions form",
+    "Changing the hero section, about section, or enrollment form colors",
+    "Implementing email integration or SMTP services"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

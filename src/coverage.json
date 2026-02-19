@@ -1,0 +1,53 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-19T04:13:47.288Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 2,
+    "implemented": 2,
+    "items": [
+      {
+        "id": "REQ-10",
+        "summary": "Change the questions/doubts form section colors to burgundy (guindo) and white color scheme, applying burgundy as the primary accent color and white as the background/text color",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/tailwind.config.js",
+          "frontend/src/components/QuestionsForm.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/tailwind.config.js",
+          "frontend/src/components/QuestionsForm.tsx"
+        ]
+      },
+      {
+        "id": "REQ-11",
+        "summary": "Display a prominent success message reading 'No se van a arrepentir de estudiar en el COBAD 35 de Gómez Farías' (You won't regret studying at COBAD 35 de Gómez Farías) in large title text when users submit their questions/doubts through the form",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/QuestionsForm.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/QuestionsForm.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/components/QuestionsForm.tsx",
+    "frontend/src/index.css",
+    "frontend/tailwind.config.js",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

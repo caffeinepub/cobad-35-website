@@ -1,0 +1,42 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-change-the-questions-doubts-form-section-colors-to-burgundy-guindo-and-white-color-scheme-applying-burgundy-as-the-primary-accent-color-and-white-as-the-background-text-color",
+      "featureTitle": "Change the questions/doubts form section colors to burgundy (guindo) and white color scheme, applying burgundy as the primary accent color and white as the background/text color",
+      "files": [
+        "frontend/src/components/QuestionsForm.tsx",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-10"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-display-a-prominent-success-message-reading-no-se-van-a-arrepentir-de-estudiar-en-el-cobad-35-de-g-mez-far-as-you-won-t-regret-studying-at-cobad-35-de-g-mez-far-as-in-large-title-text-when-users-submit-their-questions-doubts-through-the-form",
+      "featureTitle": "Display a prominent success message reading 'No se van a arrepentir de estudiar en el COBAD 35 de Gómez Farías' (You won't regret studying at COBAD 35 de Gómez Farías) in large title text when users submit their questions/doubts through the form",
+      "files": [
+        "frontend/src/components/QuestionsForm.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
