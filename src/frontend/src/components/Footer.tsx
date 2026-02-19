@@ -38,6 +38,9 @@ export default function Footer() {
           <p className="text-white/80 flex items-center justify-center gap-2 flex-wrap">
             © {currentYear} COBAD 35. Todos los derechos reservados.
           </p>
+          <p className="text-white/70 mt-2">
+            Página creada por Omar García Arias, alumno del COBAD 35
+          </p>
           <p className="text-white/60 mt-2 flex items-center justify-center gap-2">
             Built with <Heart className="w-4 h-4 fill-current" /> using{' '}
             <a 

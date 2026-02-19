@@ -1,12 +1,11 @@
 # Specification
 
 ## Summary
-**Goal:** Update the COBAD 35 website to use a burgundy and white color scheme throughout, and add a Google Maps location section.
+**Goal:** Add a student developer credit in the footer acknowledging Omar García Arias from COBAD 35.
 
 **Planned changes:**
-- Change entire website color scheme to burgundy (guindo) and white across all sections
-- Update hero section, about section, enrollment form, footer, and all page elements to use burgundy as primary accent color with white
-- Add an interactive Google Maps embed section showing the COBAD 35 de Gómez Farías location
-- Ensure map section is responsive and follows the new color scheme
+- Add a credit line to the Footer component stating "Página creada por Omar García Arias, alumno del COBAD 35"
+- Style the credit text consistently with the existing burgundy and white color scheme
+- Position the credit at the bottom of the Footer component
 
-**User-visible outcome:** The website displays with a cohesive burgundy and white color scheme throughout all sections, and visitors can view an embedded map showing the exact location of COBAD 35 de Gómez Farías.
+**User-visible outcome:** Visitors will see a credit line at the bottom of the page acknowledging that the website was created by Omar García Arias, a student from COBAD 35.

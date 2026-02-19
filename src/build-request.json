@@ -1,63 +1,36 @@
 {
   "kind": "build_request",
-  "title": "Change entire page to burgundy and white color scheme and add Google Maps location",
+  "title": "Add footer credit for student developer Omar García Arias",
   "projectName": "COBAD 35 Website",
   "priority": "normal",
   "requirements": [
     {
-      "id": "REQ-12",
-      "text": "Change the entire website color scheme to burgundy (guindo) and white, applying burgundy as the primary accent color across all sections including hero section, about section, enrollment form, footer, and any other page elements. Update all CSS variables and Tailwind configurations to use burgundy and white consistently throughout the application.",
+      "id": "REQ-14",
+      "text": "Add a credit line at the end of the page (in the Footer component) stating that the website was made by a student from COBAD 35 named Omar García Arias. The text should read: 'Página creada por Omar García Arias, alumno del COBAD 35' or similar. Style it consistently with the existing footer design using the burgundy and white color scheme.",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-current"
+          "msg-user-final"
         ],
         "quotes": [
-          "Quiero que cambies toda la página de color a guind CON BLANCO"
+          "Al final ponle que la página fue echa por un alumno de el cobad número 35 ya mando OMAR GARCÍA ARIAS"
         ]
       },
       "acceptanceCriteria": [
-        "All page sections use burgundy and white color scheme",
-        "Hero section background and overlays use burgundy/white",
-        "About section cards and backgrounds use burgundy/white",
-        "Enrollment form styling uses burgundy/white",
-        "Footer uses burgundy/white color scheme",
-        "Contact buttons maintain burgundy/white theme",
-        "All text colors maintain proper contrast for readability"
-      ]
-    },
-    {
-      "id": "REQ-13",
-      "text": "Add an interactive map section displaying the location of COBAD 35 de Gómez Farías using the Google Maps embed with the URL https://maps.app.goo.gl/7vmjBD4RjaFTk1gY8. The map should be embedded as an iframe and positioned prominently on the page so visitors can easily see where the school is located.",
-      "target": "frontend",
-      "source": {
-        "messageIds": [
-          "msg-current"
-        ],
-        "quotes": [
-          "quiero que agregues esta dirección que se vea un mapa para que vean dónde está situado el cobad 35 de Gómez farías https://maps.app.goo.gl/7vmjBD4RjaFTk1gY8"
-        ]
-      },
-      "acceptanceCriteria": [
-        "Map section displays Google Maps embed showing COBAD 35 de Gómez Farías location",
-        "Map uses the provided Google Maps URL: https://maps.app.goo.gl/7vmjBD4RjaFTk1gY8",
-        "Map is responsive and displays properly on mobile and desktop devices",
-        "Map section includes a heading or label indicating it shows the school location",
-        "Map section follows the burgundy and white color scheme for surrounding elements"
+        "Footer component displays a credit line mentioning Omar García Arias as a COBAD 35 student",
+        "Credit text is styled consistently with the existing burgundy/white theme",
+        "Credit appears at the bottom of the page in an appropriate position within the Footer component"
       ]
     }
   ],
   "constraints": [
-    "Maintain existing functionality for enrollment and questions forms",
-    "Preserve WhatsApp and Instagram contact button functionality",
-    "Keep all existing form validation and backend submission logic intact",
-    "Do not modify immutable frontend paths (useInternetIdentity, useActor, main.tsx, components/ui)"
+    "Do not modify the existing footer structure significantly, only add the student credit",
+    "Maintain the burgundy and white color scheme established throughout the site"
   ],
   "nonGoals": [
-    "Adding new form fields or changing form data structure",
-    "Modifying backend Motoko code or data models",
-    "Changing the success message content or behavior",
-    "Adding new social media integrations beyond existing WhatsApp and Instagram"
+    "Redesigning the entire footer layout",
+    "Adding additional contact information or links",
+    "Changing the existing copyright or attribution structure"
   ],
   "imageRequirements": {
     "required": [],

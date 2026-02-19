@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 7,
+  "projectStateVersion": 9,
   "summary": "Página web atractiva para COBAD 35 (escuela) con formulario de inscripción, sistema de dudas con contacto directo a WhatsApp e Instagram, e información sobre beneficios de estudiar en la institución",
   "architectural_notes": [
     "Página web estática con formularios del lado del cliente",
@@ -98,6 +98,14 @@
         "REQ-13"
       ],
       "version": 1
+    },
+    {
+      "id": "feature-add-a-credit-line-at-the-end-of-the-page-in-the-footer-component-stating-that-the-website-was-made-by-a-student-from-cobad-35-named-omar-garc-a-arias-the-text-should-read-p-gina-creada-por-omar-garc-a-arias-alumno-del-cobad-35-or-similar-style-it-consistently-with-the-existing-footer-design-using-the-burgundy-and-white-color-scheme",
+      "title": "Add a credit line at the end of the page (in the Footer component) stating that the website was made by a student from COBAD 35 named Omar García Arias. The text should read: 'Página creada por Omar García Arias, alumno del COBAD 35' or similar. Style it consistently with the existing footer design using the burgundy and white color scheme.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
     }
   ],
   "new_feature_requests": [
@@ -162,6 +170,12 @@
     {
       "id": "AR-10",
       "summary": "Agregar mapa interactivo mostrando la ubicación de COBAD 35 de Gómez Farías usando Google Maps (https://maps.app.goo.gl/7vmjBD4RjaFTk1gY8)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Agregar al final de la página un crédito indicando que fue hecha por un alumno del COBAD 35 llamado Omar García Arias",
       "reqIds": [],
       "status": "pending"
     }

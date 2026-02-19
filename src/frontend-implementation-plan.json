@@ -1,83 +1,21 @@
 {
   "kind": "implementation_plan",
   "version": "1.0",
-  "title": "Change entire page to burgundy and white color scheme and add Google Maps location",
+  "title": "Add footer credit for student developer Omar García Arias",
   "requirements": [
     {
-      "id": "REQ-12",
-      "summary": "Change the entire website color scheme to burgundy and white, applying burgundy as the primary accent color across all sections",
+      "id": "REQ-14",
+      "summary": "Add student credit line to Footer component mentioning Omar García Arias as a COBAD 35 student, styled consistently with the burgundy/white theme",
       "acceptanceCriteria": [
-        "All page sections use burgundy and white color scheme",
-        "Hero section background and overlays use burgundy/white",
-        "About section cards and backgrounds use burgundy/white",
-        "Enrollment form styling uses burgundy/white",
-        "Footer uses burgundy/white color scheme",
-        "Contact buttons maintain burgundy/white theme",
-        "All text colors maintain proper contrast for readability"
+        "Footer component displays a credit line mentioning Omar García Arias as a COBAD 35 student",
+        "Credit text is styled consistently with the existing burgundy/white theme",
+        "Credit appears at the bottom of the page in an appropriate position within the Footer component"
       ],
       "file_operations": [
-        {
-          "path": "frontend/src/index.css",
-          "operation": "modify",
-          "description": "Update CSS custom properties to replace the existing terracotta/peach/golden color palette with a burgundy and white color scheme. Set primary colors to burgundy shades and adjust background/foreground colors to white and burgundy tones for both light and dark modes, ensuring proper contrast for text readability."
-        },
-        {
-          "path": "frontend/tailwind.config.js",
-          "operation": "modify",
-          "description": "Update Tailwind color configuration to reference the new burgundy and white CSS variables. Ensure the burgundy color variants are properly configured and all color references align with the new color scheme defined in index.css."
-        },
-        {
-          "path": "frontend/src/components/HeroSection.tsx",
-          "operation": "modify",
-          "description": "Update the hero section styling to apply burgundy overlays and backgrounds. Modify className properties to use burgundy color classes for the overlay gradient, text elements, and call-to-action buttons while maintaining white text for contrast."
-        },
-        {
-          "path": "frontend/src/components/AboutSection.tsx",
-          "operation": "modify",
-          "description": "Update the about section card styling to use burgundy and white colors. Apply burgundy backgrounds or borders to the benefit cards, ensure icon colors use burgundy tones, and adjust text colors to maintain readability against the new color scheme."
-        },
-        {
-          "path": "frontend/src/components/EnrollmentForm.tsx",
-          "operation": "modify",
-          "description": "Update form styling to use burgundy and white theme. Apply burgundy colors to form labels, focus states, submit buttons, and borders. Ensure input field styling maintains white backgrounds with burgundy accents and proper contrast for all text elements."
-        },
-        {
-          "path": "frontend/src/components/QuestionsForm.tsx",
-          "operation": "modify",
-          "description": "Update questions form styling to match the burgundy and white theme. Apply burgundy colors to form elements, buttons, and success message display while maintaining consistency with the enrollment form styling."
-        },
         {
           "path": "frontend/src/components/Footer.tsx",
           "operation": "modify",
-          "description": "Update footer styling to use burgundy background with white text or white background with burgundy text. Ensure all footer elements including contact information, hours, copyright notice, and links use the burgundy and white color scheme with proper contrast."
-        },
-        {
-          "path": "frontend/src/components/ContactButtons.tsx",
-          "operation": "modify",
-          "description": "Update the floating WhatsApp and Instagram contact buttons to use burgundy background colors with white icons. Ensure hover states and active states maintain the burgundy and white theme while preserving button functionality."
-        }
-      ]
-    },
-    {
-      "id": "REQ-13",
-      "summary": "Add an interactive map section displaying the location of COBAD 35 de Gómez Farías using Google Maps embed",
-      "acceptanceCriteria": [
-        "Map section displays Google Maps embed showing COBAD 35 de Gómez Farías location",
-        "Map uses the provided Google Maps URL: https://maps.app.goo.gl/7vmjBD4RjaFTk1gY8",
-        "Map is responsive and displays properly on mobile and desktop devices",
-        "Map section includes a heading or label indicating it shows the school location",
-        "Map section follows the burgundy and white color scheme for surrounding elements"
-      ],
-      "file_operations": [
-        {
-          "path": "frontend/src/components/LocationMap.tsx",
-          "operation": "create",
-          "description": "Create a new LocationMap component that embeds Google Maps using an iframe with the URL https://maps.app.goo.gl/7vmjBD4RjaFTk1gY8. Include a section heading indicating it shows the COBAD 35 de Gómez Farías location. Apply burgundy and white styling to the section container and heading. Make the iframe responsive with appropriate width and height settings for mobile and desktop displays."
-        },
-        {
-          "path": "frontend/src/App.tsx",
-          "operation": "modify",
-          "description": "Import and integrate the LocationMap component into the main App component. Position it after the AboutSection and before the EnrollmentForm to ensure visitors see the school location prominently. Maintain the existing layout flow and component composition."
+          "description": "Add a credit line at the end of the Footer component stating 'Página creada por Omar García Arias, alumno del COBAD 35' or similar. Style the text consistently with the existing burgundy and white color scheme, ensuring it appears at the bottom of the footer in an appropriate position without disrupting the existing footer structure (school info, contact details, hours, copyright, and caffeine.ai attribution)."
         }
       ]
     }

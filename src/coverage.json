@@ -1,48 +1,24 @@
 {
   "kind": "coverage_report",
   "version": "1.0",
-  "generatedAt": "2026-02-19T04:22:58.677Z",
+  "generatedAt": "2026-02-19T04:27:57.303Z",
   "sources": {
     "buildRequest": true,
     "implementationPlan": true
   },
   "requirements": {
-    "total": 2,
-    "implemented": 2,
+    "total": 1,
+    "implemented": 1,
     "items": [
       {
-        "id": "REQ-12",
-        "summary": "Change the entire website color scheme to burgundy (guindo) and white, applying burgundy as the primary accent color across all sections including hero section, about section, enrollment form, footer, and any other page elements. Update all CSS variables and Tailwind configurations to use burgundy and white consistently throughout the application.",
+        "id": "REQ-14",
+        "summary": "Add a credit line at the end of the page (in the Footer component) stating that the website was made by a student from COBAD 35 named Omar García Arias. The text should read: 'Página creada por Omar García Arias, alumno del COBAD 35' or similar. Style it consistently with the existing footer design using the burgundy and white color scheme.",
         "status": "implemented",
         "plannedFiles": [
-          "frontend/src/index.css",
-          "frontend/tailwind.config.js",
-          "frontend/src/components/HeroSection.tsx",
-          "frontend/src/components/AboutSection.tsx",
-          "frontend/src/components/EnrollmentForm.tsx",
-          "frontend/src/components/QuestionsForm.tsx",
-          "frontend/src/components/Footer.tsx",
-          "frontend/src/components/ContactButtons.tsx"
-        ],
-        "matchedFiles": [
-          "frontend/src/index.css",
-          "frontend/src/components/HeroSection.tsx",
-          "frontend/src/components/AboutSection.tsx",
-          "frontend/src/components/EnrollmentForm.tsx",
           "frontend/src/components/Footer.tsx"
-        ]
-      },
-      {
-        "id": "REQ-13",
-        "summary": "Add an interactive map section displaying the location of COBAD 35 de Gómez Farías using the Google Maps embed with the URL https://maps.app.goo.gl/7vmjBD4RjaFTk1gY8. The map should be embedded as an iframe and positioned prominently on the page so visitors can easily see where the school is located.",
-        "status": "implemented",
-        "plannedFiles": [
-          "frontend/src/components/LocationMap.tsx",
-          "frontend/src/App.tsx"
         ],
         "matchedFiles": [
-          "frontend/src/components/LocationMap.tsx",
-          "frontend/src/App.tsx"
+          "frontend/src/components/Footer.tsx"
         ]
       }
     ]
@@ -52,13 +28,7 @@
     "feature_evidence.json",
     "frontend-file-summaries.txt",
     "frontend-implementation-plan.json",
-    "frontend/src/App.tsx",
-    "frontend/src/components/AboutSection.tsx",
-    "frontend/src/components/EnrollmentForm.tsx",
     "frontend/src/components/Footer.tsx",
-    "frontend/src/components/HeroSection.tsx",
-    "frontend/src/components/LocationMap.tsx",
-    "frontend/src/index.css",
     "project_state.json",
     "scratch/component-selection.json",
     "spec.md",
