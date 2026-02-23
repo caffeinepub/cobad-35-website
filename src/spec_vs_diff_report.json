@@ -1,14 +1,20 @@
 {
   "kind": "spec_vs_diff_report",
   "version": "1.0",
-  "generatedAt": "2026-02-19T04:27:57.301Z",
-  "summary": "REQ-14 is fully implemented. The Footer component now includes the student credit line 'Página creada por Omar García Arias, alumno del COBAD 35' styled consistently with the burgundy and white theme. No missing requirements or hallucinated features detected.",
+  "generatedAt": "2026-02-19T04:57:37.398Z",
+  "summary": "The diff shows comprehensive replacement of 'COBAD' with 'COBAT' across 9 frontend files including components (AboutSection, EnrollmentForm, Footer, HeroSection, LocationMap, QuestionsForm), the HTML title tag, and project state. All visible text, meta tags, and component content have been updated to display 'COBAT 35' consistently.",
   "missing_requirements": [],
   "hallucinated_features": [],
   "confidence": 0.95,
   "changed_files": [
     "frontend-file-summaries.txt",
+    "frontend/index.html",
+    "frontend/src/components/AboutSection.tsx",
+    "frontend/src/components/EnrollmentForm.tsx",
     "frontend/src/components/Footer.tsx",
+    "frontend/src/components/HeroSection.tsx",
+    "frontend/src/components/LocationMap.tsx",
+    "frontend/src/components/QuestionsForm.tsx",
     "project_state.json"
   ]
 }

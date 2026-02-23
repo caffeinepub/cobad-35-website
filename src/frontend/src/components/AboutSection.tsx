@@ -34,7 +34,7 @@ export default function AboutSection() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-burgundy mb-4">
-            ¿Por Qué Elegir COBAD 35?
+            ¿Por Qué Elegir COBAT 35?
           </h2>
           <p className="text-lg text-burgundy-dark dark:text-burgundy-light max-w-2xl mx-auto">
             Somos más que una escuela, somos una comunidad comprometida con tu futuro
@@ -87,7 +87,7 @@ export default function AboutSection() {
             Formando Líderes del Mañana
           </h3>
           <p className="text-center text-burgundy-dark dark:text-burgundy-light text-lg leading-relaxed">
-            En COBAD 35, no solo te preparamos académicamente, sino que desarrollamos tus habilidades 
+            En COBAT 35, no solo te preparamos académicamente, sino que desarrollamos tus habilidades 
             sociales, tu pensamiento crítico y tu capacidad de liderazgo. Nuestro compromiso es brindarte 
             las herramientas necesarias para que alcances tus metas y contribuyas positivamente a la sociedad.
           </p>

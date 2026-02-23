@@ -1,21 +1,57 @@
 {
   "kind": "implementation_plan",
   "version": "1.0",
-  "title": "Add footer credit for student developer Omar García Arias",
+  "title": "Fix remaining COBAD references to COBAT",
   "requirements": [
     {
-      "id": "REQ-14",
-      "summary": "Add student credit line to Footer component mentioning Omar García Arias as a COBAD 35 student, styled consistently with the burgundy/white theme",
+      "id": "REQ-16",
+      "summary": "Replace all instances of 'COBAD 35' with 'COBAT 35' throughout the frontend codebase to ensure brand consistency",
       "acceptanceCriteria": [
-        "Footer component displays a credit line mentioning Omar García Arias as a COBAD 35 student",
-        "Credit text is styled consistently with the existing burgundy/white theme",
-        "Credit appears at the bottom of the page in an appropriate position within the Footer component"
+        "All visible text displays 'COBAT 35' instead of 'COBAD 35'",
+        "HTML title and meta tags use 'COBAT 35'",
+        "No instances of 'COBAD' remain in user-facing text",
+        "Spanish text maintains correct grammar and orthography with the new name"
       ],
       "file_operations": [
         {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Update the HTML title tag and any meta description tags to replace 'COBAD 35' with 'COBAT 35'"
+        },
+        {
+          "path": "frontend/src/components/AboutSection.tsx",
+          "operation": "modify",
+          "description": "Search and replace all text content containing 'COBAD 35' with 'COBAT 35' in section headings, card titles, and descriptions"
+        },
+        {
+          "path": "frontend/src/components/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Update all instances of 'COBAD 35' to 'COBAT 35' in the hero heading, subheading, and any call-to-action button text"
+        },
+        {
+          "path": "frontend/src/components/EnrollmentForm.tsx",
+          "operation": "modify",
+          "description": "Replace 'COBAD 35' with 'COBAT 35' in form title, labels, placeholder text, validation messages, and success message content"
+        },
+        {
+          "path": "frontend/src/components/QuestionsForm.tsx",
+          "operation": "modify",
+          "description": "Update all text containing 'COBAD 35' to 'COBAT 35' in form title, field labels, and success message branding"
+        },
+        {
+          "path": "frontend/src/components/LocationMap.tsx",
+          "operation": "modify",
+          "description": "Replace 'COBAD 35' with 'COBAT 35' in the section title and any descriptive text related to the school location"
+        },
+        {
           "path": "frontend/src/components/Footer.tsx",
           "operation": "modify",
-          "description": "Add a credit line at the end of the Footer component stating 'Página creada por Omar García Arias, alumno del COBAD 35' or similar. Style the text consistently with the existing burgundy and white color scheme, ensuring it appears at the bottom of the footer in an appropriate position without disrupting the existing footer structure (school info, contact details, hours, copyright, and caffeine.ai attribution)."
+          "description": "Update all footer text content from 'COBAD 35' to 'COBAT 35', including school name, copyright notices, and any contact information labels"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Review and replace any instances of 'COBAD 35' with 'COBAT 35' in component props, configuration, or metadata passed to child components"
         }
       ]
     }

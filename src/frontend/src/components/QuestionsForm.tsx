@@ -98,7 +98,7 @@ export default function QuestionsForm() {
                   </div>
                 </div>
                 <h3 className="text-4xl md:text-5xl lg:text-6xl font-bold text-burgundy mb-6 leading-tight">
-                  ¡No se van a arrepentir de estudiar en el COBAD 35 de Gómez Farías!
+                  ¡No se van a arrepentir de estudiar en el COBAT 35 de Gómez Farías!
                 </h3>
                 <div className="mt-8 p-6 bg-burgundy/5 dark:bg-burgundy/10 rounded-xl border-2 border-burgundy/20">
                   <div className="flex justify-center mb-4">

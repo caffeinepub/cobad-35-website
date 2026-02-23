@@ -1,36 +1,38 @@
 {
   "kind": "build_request",
-  "title": "Add footer credit for student developer Omar García Arias",
-  "projectName": "COBAD 35 Website",
+  "title": "Fix remaining COBAD references to COBAT",
+  "projectName": "COBAT 35 Website",
   "priority": "normal",
   "requirements": [
     {
-      "id": "REQ-14",
-      "text": "Add a credit line at the end of the page (in the Footer component) stating that the website was made by a student from COBAD 35 named Omar García Arias. The text should read: 'Página creada por Omar García Arias, alumno del COBAD 35' or similar. Style it consistently with the existing footer design using the burgundy and white color scheme.",
+      "id": "REQ-16",
+      "text": "Search and replace all remaining instances of 'COBAD 35' with 'COBAT 35' throughout the entire codebase, including HTML title tags, meta descriptions, component text content, form labels, success messages, and any other visible text. Ensure consistency across all frontend components and static content.",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-user-final"
+          "msg-5"
         ],
         "quotes": [
-          "Al final ponle que la página fue echa por un alumno de el cobad número 35 ya mando OMAR GARCÍA ARIAS"
+          "No sigue apareciendo con d"
         ]
       },
       "acceptanceCriteria": [
-        "Footer component displays a credit line mentioning Omar García Arias as a COBAD 35 student",
-        "Credit text is styled consistently with the existing burgundy/white theme",
-        "Credit appears at the bottom of the page in an appropriate position within the Footer component"
+        "All visible text displays 'COBAT 35' instead of 'COBAD 35'",
+        "HTML title and meta tags use 'COBAT 35'",
+        "No instances of 'COBAD' remain in user-facing text",
+        "Spanish text maintains correct grammar and orthography with the new name"
       ]
     }
   ],
   "constraints": [
-    "Do not modify the existing footer structure significantly, only add the student credit",
-    "Maintain the burgundy and white color scheme established throughout the site"
+    "Do not modify immutable frontend paths: frontend/src/hooks/useInternetIdentity.ts, frontend/src/hooks/useInternetIdentity.tsx, frontend/src/hooks/useActor.ts, frontend/src/main.tsx, frontend/src/components/ui",
+    "Preserve existing burgundy and white color scheme",
+    "Maintain all existing functionality and component structure"
   ],
   "nonGoals": [
-    "Redesigning the entire footer layout",
-    "Adding additional contact information or links",
-    "Changing the existing copyright or attribution structure"
+    "Changing backend data models or stored data",
+    "Modifying the visual design or layout",
+    "Updating any functionality beyond text corrections"
   ],
   "imageRequirements": {
     "required": [],

@@ -1,7 +1,7 @@
 {
   "kind": "coverage_report",
   "version": "1.0",
-  "generatedAt": "2026-02-19T04:27:57.303Z",
+  "generatedAt": "2026-02-19T04:57:37.401Z",
   "sources": {
     "buildRequest": true,
     "implementationPlan": true
@@ -11,13 +11,26 @@
     "implemented": 1,
     "items": [
       {
-        "id": "REQ-14",
-        "summary": "Add a credit line at the end of the page (in the Footer component) stating that the website was made by a student from COBAD 35 named Omar García Arias. The text should read: 'Página creada por Omar García Arias, alumno del COBAD 35' or similar. Style it consistently with the existing footer design using the burgundy and white color scheme.",
+        "id": "REQ-16",
+        "summary": "Search and replace all remaining instances of 'COBAD 35' with 'COBAT 35' throughout the entire codebase, including HTML title tags, meta descriptions, component text content, form labels, success messages, and any other visible text. Ensure consistency across all frontend components and static content.",
         "status": "implemented",
         "plannedFiles": [
-          "frontend/src/components/Footer.tsx"
+          "frontend/index.html",
+          "frontend/src/components/AboutSection.tsx",
+          "frontend/src/components/HeroSection.tsx",
+          "frontend/src/components/EnrollmentForm.tsx",
+          "frontend/src/components/QuestionsForm.tsx",
+          "frontend/src/components/LocationMap.tsx",
+          "frontend/src/components/Footer.tsx",
+          "frontend/src/App.tsx"
         ],
         "matchedFiles": [
+          "frontend/index.html",
+          "frontend/src/components/AboutSection.tsx",
+          "frontend/src/components/HeroSection.tsx",
+          "frontend/src/components/EnrollmentForm.tsx",
+          "frontend/src/components/QuestionsForm.tsx",
+          "frontend/src/components/LocationMap.tsx",
           "frontend/src/components/Footer.tsx"
         ]
       }
@@ -28,7 +41,13 @@
     "feature_evidence.json",
     "frontend-file-summaries.txt",
     "frontend-implementation-plan.json",
+    "frontend/index.html",
+    "frontend/src/components/AboutSection.tsx",
+    "frontend/src/components/EnrollmentForm.tsx",
     "frontend/src/components/Footer.tsx",
+    "frontend/src/components/HeroSection.tsx",
+    "frontend/src/components/LocationMap.tsx",
+    "frontend/src/components/QuestionsForm.tsx",
     "project_state.json",
     "scratch/component-selection.json",
     "spec.md",

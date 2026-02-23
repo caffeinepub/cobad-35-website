@@ -28,7 +28,7 @@ export default function HeroSection() {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">
-          COBAD 35
+          COBAT 35
         </h1>
         
         <p className="text-xl md:text-3xl text-white/95 mb-4 font-medium max-w-3xl mx-auto">

@@ -14,7 +14,7 @@ export default function LocationMap() {
             Nuestra Ubicación
           </h2>
           <p className="text-lg text-burgundy-dark dark:text-burgundy-light max-w-2xl mx-auto">
-            Visítanos en COBAD 35 de Gómez Farías
+            Visítanos en COBAT 35 de Gómez Farías
           </p>
         </div>
 
@@ -28,7 +28,7 @@ export default function LocationMap() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Ubicación de COBAD 35 de Gómez Farías"
+              title="Ubicación de COBAT 35 de Gómez Farías"
               className="w-full"
             />
           </div>
@@ -38,7 +38,7 @@ export default function LocationMap() {
               <MapPin className="w-6 h-6 text-burgundy shrink-0 mt-1" />
               <div>
                 <h3 className="text-xl font-bold text-burgundy mb-2">
-                  COBAD 35 de Gómez Farías
+                  COBAT 35 de Gómez Farías
                 </h3>
                 <p className="text-burgundy-dark dark:text-burgundy-light">
                   Te esperamos en nuestras instalaciones. Ven a conocer nuestra escuela y descubre todo lo que tenemos para ofrecerte.

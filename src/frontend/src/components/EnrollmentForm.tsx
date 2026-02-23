@@ -113,7 +113,7 @@ export default function EnrollmentForm() {
                   ¡Solicitud Enviada!
                 </h3>
                 <p className="text-burgundy-dark dark:text-burgundy-light">
-                  Gracias por tu interés en COBAD 35. Nos pondremos en contacto contigo pronto.
+                  Gracias por tu interés en COBAT 35. Nos pondremos en contacto contigo pronto.
                 </p>
               </div>
             ) : (

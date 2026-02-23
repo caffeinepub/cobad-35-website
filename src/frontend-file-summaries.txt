@@ -1,13 +1,14 @@
 {
   "frontend/src/App.tsx": "Main application component that renders all sections including the new LocationMap component positioned between AboutSection and EnrollmentForm.",
   "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for managing backend interactions including submitting applications and questions, and retrieving stored data.",
-  "frontend/src/components/HeroSection.tsx": "Hero section with burgundy gradient overlay, white text, and burgundy-themed call-to-action buttons maintaining smooth scroll functionality.",
-  "frontend/src/components/AboutSection.tsx": "About section with burgundy-themed cards, icons, borders, and text colors showcasing the four key benefits of COBAD 35.",
-  "frontend/src/components/EnrollmentForm.tsx": "Enrollment form with burgundy and white color scheme applied to all form elements, labels, buttons, and success messages.",
-  "frontend/src/components/QuestionsForm.tsx": "Questions form component with burgundy and white color scheme, featuring validation, backend submission, and a large motivational success message about COBAD 35 de Gómez Farías that displays after form submission.",
+  "frontend/src/components/HeroSection.tsx": "Hero section with burgundy gradient overlay, white text, and burgundy-themed call-to-action buttons displaying \"COBAT 35\" as the main heading",
+  "frontend/src/components/AboutSection.tsx": "About section with burgundy-themed cards showcasing the four key benefits of COBAT 35 with updated school name throughout",
+  "frontend/src/components/EnrollmentForm.tsx": "Enrollment form with burgundy and white color scheme, displaying \"COBAT 35\" in the success message after form submission",
+  "frontend/src/components/QuestionsForm.tsx": "Questions form component with burgundy and white color scheme, featuring a large motivational success message about COBAT 35 de Gómez Farías that displays after form submission",
   "frontend/src/components/ContactButtons.tsx": "Fixed floating buttons for WhatsApp and Instagram contact with deep linking to open respective apps.",
-  "frontend/src/components/Footer.tsx": "Footer component with burgundy background and white text displaying school information, contact details, hours, student credit for Omar García Arias (COBAD 35 student), and caffeine.ai attribution.",
+  "frontend/src/components/Footer.tsx": "Footer component with burgundy background displaying COBAT 35 school information, contact details, student credit for Omar García Arias, and caffeine.ai attribution",
   "frontend/src/index.css": "Global styles with OKLCH color system completely redesigned with burgundy (guindo) and white color palette for both light and dark modes, replacing the previous terracotta/peach/golden scheme.",
   "frontend/tailwind.config.js": "Tailwind configuration with burgundy color variants already configured and ready to use throughout the application.",
-  "frontend/src/components/LocationMap.tsx": "New component displaying an embedded Google Maps iframe showing COBAD 35 de Gómez Farías location with burgundy and white styling, including a link to open the location in Google Maps."
+  "frontend/src/components/LocationMap.tsx": "Component displaying an embedded Google Maps iframe showing COBAT 35 de Gómez Farías location with burgundy and white styling",
+  "frontend/index.html": "HTML entry point with updated page title displaying \"COBAT 35 Website\""
 }

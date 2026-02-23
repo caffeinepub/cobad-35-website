@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 9,
+  "projectStateVersion": 13,
   "summary": "Página web atractiva para COBAD 35 (escuela) con formulario de inscripción, sistema de dudas con contacto directo a WhatsApp e Instagram, e información sobre beneficios de estudiar en la institución",
   "architectural_notes": [
     "Página web estática con formularios del lado del cliente",
@@ -8,8 +8,10 @@
     "Enlace directo a Instagram (@omar_garcia_18) para contacto",
     "Integración con Google Maps para mostrar ubicación de la escuela"
   ],
-  "known_issues": [],
-  "isFixRequest": false,
+  "known_issues": [
+    "Algunos textos aún muestran 'COBAD 35' en lugar de 'COBAT 35'"
+  ],
+  "isFixRequest": true,
   "existing_features": [
     {
       "id": "feature-create-a-hero-section-with-the-school-name-cobad-35-a-compelling-tagline-about-quality-education-and-a-prominent-call-to-action-button-for-enrollment",
@@ -106,6 +108,14 @@
         "REQ-14"
       ],
       "version": 1
+    },
+    {
+      "id": "feature-search-and-replace-all-remaining-instances-of-cobad-35-with-cobat-35-throughout-the-entire-codebase-including-html-title-tags-meta-descriptions-component-text-content-form-labels-success-messages-and-any-other-visible-text-ensure-consistency-across-all-frontend-components-and-static-content",
+      "title": "Search and replace all remaining instances of 'COBAD 35' with 'COBAT 35' throughout the entire codebase, including HTML title tags, meta descriptions, component text content, form labels, success messages, and any other visible text. Ensure consistency across all frontend components and static content.",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
     }
   ],
   "new_feature_requests": [
@@ -176,6 +186,20 @@
     {
       "id": "AR-11",
       "summary": "Agregar al final de la página un crédito indicando que fue hecha por un alumno del COBAD 35 llamado Omar García Arias",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-12",
+      "summary": "Review and correct all Spanish text throughout the website for spelling errors, typos, and grammatical mistakes. Pay special attention to visible user-facing text in all components including HeroSection, AboutSection, EnrollmentForm, QuestionsForm, Footer, and LocationMap. Ensure proper Spanish orthography, accents, and punctuation.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-13",
+      "summary": "Corregir todos los textos que todavía muestran 'COBAD 35' y cambiarlos a 'COBAT 35' en toda la página web",
       "reqIds": [],
       "status": "pending"
     }

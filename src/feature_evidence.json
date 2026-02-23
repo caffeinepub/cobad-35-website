@@ -2,10 +2,16 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-add-a-credit-line-at-the-end-of-the-page-in-the-footer-component-stating-that-the-website-was-made-by-a-student-from-cobad-35-named-omar-garc-a-arias-the-text-should-read-p-gina-creada-por-omar-garc-a-arias-alumno-del-cobad-35-or-similar-style-it-consistently-with-the-existing-footer-design-using-the-burgundy-and-white-color-scheme",
-      "featureTitle": "Add a credit line at the end of the page (in the Footer component) stating that the website was made by a student from COBAD 35 named Omar García Arias. The text should read: 'Página creada por Omar García Arias, alumno del COBAD 35' or similar. Style it consistently with the existing footer design using the burgundy and white color scheme.",
+      "featureId": "feature-search-and-replace-all-remaining-instances-of-cobad-35-with-cobat-35-throughout-the-entire-codebase-including-html-title-tags-meta-descriptions-component-text-content-form-labels-success-messages-and-any-other-visible-text-ensure-consistency-across-all-frontend-components-and-static-content",
+      "featureTitle": "Search and replace all remaining instances of 'COBAD 35' with 'COBAT 35' throughout the entire codebase, including HTML title tags, meta descriptions, component text content, form labels, success messages, and any other visible text. Ensure consistency across all frontend components and static content.",
       "files": [
-        "frontend/src/components/Footer.tsx"
+        "frontend/index.html",
+        "frontend/src/components/AboutSection.tsx",
+        "frontend/src/components/EnrollmentForm.tsx",
+        "frontend/src/components/Footer.tsx",
+        "frontend/src/components/HeroSection.tsx",
+        "frontend/src/components/LocationMap.tsx",
+        "frontend/src/components/QuestionsForm.tsx"
       ],
       "components": [
         "core-infrastructure@1.0.2",
@@ -15,7 +21,7 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-14"
+        "REQ-16"
       ],
       "confidence": "high"
     }
